@@ -1,0 +1,127 @@
+
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+
+* {
+    border: none;
+    margin: 0px;
+    font: 700 1em "News Cycle", sans-serif;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.bleu {
+    text-align: center;
+}
+
+.bl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    animation-name: bg;
+    background-color: black;
+}
+
+
+.bl .bleu {
+    
+    width: 100vw;
+    margin: auto;
+    color: rgb(75, 213, 238);
+    font-size: 40px;
+    animation-fill-mode: forwards;
+    animation-name: opacity;
+    animation-delay: 4.5s;
+
+    
+
+}
+
+.bl img {
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    animation-name: logo;
+    animation-duration: 10s;
+    border-radius: 50%;
+}
+
+.jaune {
+
+    color: rgb(249, 189, 49);
+    opacity: 0;
+    font-size: 40px;
+    width: 500px;
+    position: absolute;
+    text-align: justify;
+    text-align-last: left;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    animation-name: jau;
+    animation-duration: 200s;
+    overflow: hidden;
+
+
+}
+
+@keyframes bg {
+    100% {
+        background-image: url(./assets/bg.png);
+    }
+
+}
+
+@keyframes opacity {
+    50% {
+        opacity: 0.5;
+    }    
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes logo {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(0);
+        display: none;
+    }
+}
+
+@keyframes jau {
+    0% {
+        opacity:1;
+        transform:perspective(600px) rotateX(70deg) translateY(1300px);
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    23% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity:0;
+        transform: perspective(600px) rotateX(70deg)translateY(-800vh);
+    }
+}
+
+
+

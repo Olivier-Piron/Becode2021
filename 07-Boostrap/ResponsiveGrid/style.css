@@ -1,0 +1,45 @@
+body {
+    padding: 1em;
+}
+
+h2 {
+    margin: 1em;
+}
+
+.oneToFour .container-fluid {
+    line-height: 2em;
+    padding: 1em;
+}
+
+.oneToFour [class^="col-"] {
+    background-color: #CDA5F3;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.five [class^="col-"] {
+    padding: .5em;
+}
+
+.five .content {
+    background-color: #D8D8D8;
+    border: 1px solid grey;
+    line-height: 4em;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .zone1 {
+        margin-right: 1em;
+    }
+    .zone2 {
+        margin-right: 2em;
+    }
+    .zone3 {
+        margin-left: 1em;
+    }
+}
+
+
+
+

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$orange: #e34f3b;
+$grey: #f2f2f2;
+$duration: .6s;
+
+body {
+    height: 100vh;
+    background: #f2f2f2;
+    font: {
+      size: 1em;
+      family: 'Open Sans', sans-serif;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 0;
+}
+
+.card {
+    position: relative;
+    min-height: 460px;
+    width: 350px;
+    display: inline-block;
+    overflow: hidden;
+    background: white;
+    box-shadow: 5px 5px 12px -5px rgba(90,90,90,0.74);
+  .image {
+    width: 100%;
+    display: block;
+    transition: all $duration;
+    margin-bottom: 0;
+    img {
+      min-height: 350px;
+      width: 100%;
+    }
+  }
+  .date {
+    position: absolute;
+    top: 1em;
+    right: .5em;
+    width: 4.1em;
+    height: 4.1em;
+    color: white;
+    border-radius: 100%;
+    background-color:$orange;
+    align-items: center;
+    text-align: center;
+    font-size: .72em;
+  }
+  .info {
+    max-height: 150px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    .orange {
+      padding: 0.5rem;
+      max-width: 5rem;
+      position: absolute;
+      left: -1px;
+      top: -2rem;
+      background-color:$orange;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h2 {
+      font-size: 1.7em;
+      margin-bottom: 1rem;
+      margin-top: 0;
+    }
+    h3 {
+      font-size: 1.2em;
+      color: $orange;
+      }
+    .text {
+      font-size: 1em;
+      text-align: left;
+      color: gray;
+      max-height: 0px;
+      margin-top: 2em;
+      overflow: hidden;
+    }
+  }
+
+  .bottom {
+    color: gray;
+    span {
+      margin-left: 2rem;
+    }
+  }
+
+  &:hover {
+    .image {
+      transform: scale(1.5);
+      opacity: 0.5;
+    }
+
+    .info {
+      min-height: 300px;
+      .text {
+        max-height: 200px;
+      }
+    }
+  }
+
+}
+
+
+
+

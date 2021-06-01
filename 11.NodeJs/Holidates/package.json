@@ -1,0 +1,29 @@
+{
+  "name": "holidates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "country-list": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olivier-BeCode/NodeJS.git"
+  },
+  "keywords": [
+    "holiday",
+    "dates"
+  ],
+  "author": "Olivier Piron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olivier-BeCode/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Olivier-BeCode/NodeJS#readme"
+}

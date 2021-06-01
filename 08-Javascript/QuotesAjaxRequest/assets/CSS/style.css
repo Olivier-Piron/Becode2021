@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Arvo', serif;
+    background-color: #212325;
+    font-size: 2rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.author {
+    font-family: 'Gentium Basic', serif;
+    color: #dbdbdb;
+    background-color: #8f0404;
+    padding: .5rem;
+    border-radius: 3px;
+    box-shadow:inset 0px 62px 0px -15px #aa0903;
+}
+
+.quote {
+    color: #dbdbdb;
+    padding: 1rem;
+}
+
+.quotationMark {
+    font-family: 'Spirax', cursive;
+    color: #dbdbdb;
+}

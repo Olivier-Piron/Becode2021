@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #3c4239;
+}
+
+.forest {
+	width: 95vw;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	background-image: url(assets/bg404.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 20px;
+	padding: 1vw;
+	box-shadow: 8px 8px 8px rgba(46, 46, 46, 0.4);
+}
+  
+  h1 { 
+	color: white;
+	font-size: 200px; 
+	line-height: 80px;
+	text-shadow: 2px 2px 2px #16242f;
+}
+
+  h3 {
+	color: #61c2d0;
+	padding-top: 50px;
+	font-size: 60px;
+	background-color: #16242f;
+	padding: 10px;
+	border-radius: 20px;
+	text-shadow: 2px 2px 2px #16242f;
+  }
+
+  .stroke {
+	color: #16242f;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #61c2d0;
+
+  }
+
+.top h1, .top h3, .top h6 {
+	margin: 0;
+	text-align: center;
+  }
+  
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+ 
+button {
+	margin-top: 50vh;
+	margin-bottom: 40px;
+    transition: all .7s ease-in;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+	background-color : transparent;
+    padding: 15px;
+	border-radius: 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	backdrop-filter: blur(10px);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+	
